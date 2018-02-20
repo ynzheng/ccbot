@@ -1,0 +1,187 @@
+{
+    "g_all_init_fund": {
+        "Balance": 0.15, 
+        "FrozenBalance": 0.0, 
+        "FrozenStocks": 0.0, 
+        "Stocks": 40.0, 
+        "balance": 0.15, 
+        "currency": "QTUM_BTC", 
+        "price": 0.0035124999999999996, 
+        "stocks": 40.0, 
+        "total": 0.2905
+    }, 
+    "g_arbit_stats": {
+        "binance": {
+            "huobipro": {
+                "canceled": {
+                    "buy": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }, 
+                    "profit": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }, 
+                    "sell": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }
+                }, 
+                "executed": {
+                    "buy": {
+                        "amount": 292.84314, 
+                        "volume": 1.13039918098
+                    }, 
+                    "profit": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }, 
+                    "sell": {
+                        "amount": 293.08, 
+                        "volume": 1.1391613900000002
+                    }
+                }
+            }
+        }, 
+        "huobipro": {
+            "binance": {
+                "canceled": {
+                    "buy": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }, 
+                    "profit": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }, 
+                    "sell": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }
+                }, 
+                "executed": {
+                    "buy": {
+                        "amount": 313.17651000000006, 
+                        "volume": 1.1898215973900002
+                    }, 
+                    "profit": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }, 
+                    "sell": {
+                        "amount": 312.83999999999986, 
+                        "volume": 1.1961456499999998
+                    }
+                }
+            }
+        }
+    }, 
+    "g_arbit_status": {
+        "binance": {
+            "huobipro": {
+                "canceled": {
+                    "buy": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }, 
+                    "profit": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }, 
+                    "sell": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }
+                }, 
+                "executed": {
+                    "buy": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }, 
+                    "profit": {
+                        "amount": 292.84314, 
+                        "volume": 0.004452186579180755
+                    }, 
+                    "sell": {
+                        "amount": 0.23685999999999563, 
+                        "volume": 0.0009109736625217899
+                    }
+                }
+            }
+        }, 
+        "huobipro": {
+            "binance": {
+                "canceled": {
+                    "buy": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }, 
+                    "profit": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }, 
+                    "sell": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }
+                }, 
+                "executed": {
+                    "buy": {
+                        "amount": 0.33650999999999887, 
+                        "volume": 0.0012734654254912042
+                    }, 
+                    "profit": {
+                        "amount": 312.83999999999986, 
+                        "volume": 0.004016678603526699
+                    }, 
+                    "sell": {
+                        "amount": 0.0, 
+                        "volume": 0.0
+                    }
+                }
+            }
+        }
+    }, 
+    "g_stats": {
+        "STATS_ARBITRAGE_PROFIT": 0.008098467310000048
+    }, 
+    "g_version_info": [
+        1, 
+        0, 
+        0
+    ], 
+    "myex_list": [
+        {
+            "base_stocks": 20.0,
+            "currency": "QTUM_BTC", 
+            "executed_orders": {}, 
+            "name": "binance", 
+            "pending_force": {
+                "amount": 0.0, 
+                "type": "buy"
+            }, 
+            "stats": {
+                "order.arbit.buy.amount": 313.49, 
+                "order.arbit.buy.count": 81.0, 
+                "order.arbit.sell.amount": 293.08, 
+                "order.arbit.sell.count": 56.0
+            }
+        }, 
+        {
+            "base_stocks": 20.0,
+            "currency": "QTUM_BTC", 
+            "executed_orders": {}, 
+            "name": "huobipro", 
+            "pending_force": {
+                "amount": 0.0, 
+                "type": "buy"
+            }, 
+            "stats": {
+                "order.arbit.buy.amount": 293.42999999999995, 
+                "order.arbit.buy.count": 56.0, 
+                "order.arbit.sell.amount": 312.83999999999986, 
+                "order.arbit.sell.count": 81.0
+            }
+        }
+    ]
+}

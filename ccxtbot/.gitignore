@@ -1,0 +1,8 @@
+*.pyc
+/venv/
+/ccxt/
+/charts/
+/data/
+/data2/
+/data3/
+/API/

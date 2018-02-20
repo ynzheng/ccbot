@@ -1,0 +1,60 @@
+{
+    "saved_banzhuan": 0.001105302231900048, 
+    "saved_chushi": {
+        "bi": 60.23586859999999, 
+        "fist_price": 0.0035530069030033054, 
+        "mc": 0.21401845694420002, 
+        "money": 0.22012836015574, 
+        "zg": 0.43414681709994
+    }, 
+    "saved_delta": {
+        "Binance": {
+            "Huobi": {
+                "delta_cg_list": {
+                    "differ_leiji": 0.0002370000000000037, 
+                    "times": 17
+                }, 
+                "delta_list": -7.977721985953807e-06, 
+                "traded_times": 69.8, 
+                "traded_times_dict": 69.8
+            }, 
+            "OKEX": {
+                "delta_cg_list": {
+                    "differ_leiji": 0.00017350000000000395, 
+                    "times": 14
+                }, 
+                "delta_list": -5.602326014032403e-06, 
+                "traded_times": 0, 
+                "traded_times_dict": 0
+            }
+        }, 
+        "Huobi": {
+            "OKEX": {
+                "delta_cg_list": {
+                    "differ_leiji": -1.8579999999999812e-05, 
+                    "times": 7
+                }, 
+                "delta_list": 2.4076539010074655e-06, 
+                "traded_times": 57.30000000000001, 
+                "traded_times_dict": 57.30000000000001
+            }
+        }
+    }, 
+    "saved_jys_first_state": {
+        "Binance": {
+            "first_Balance": 0.05710289, 
+            "first_amount": 25.89005, 
+            "traded_amount": 69.8
+        }, 
+        "Huobi": {
+            "first_Balance": 0.01074481932, 
+            "first_amount": 34.2870886, 
+            "traded_amount": 127.10000000000002
+        }, 
+        "OKEX": {
+            "first_Balance": 0.15228065083574, 
+            "first_amount": 0.05873, 
+            "traded_amount": 0
+        }
+    }
+}

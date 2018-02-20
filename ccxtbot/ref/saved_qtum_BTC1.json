@@ -1,0 +1,74 @@
+{
+    // 搬砖利差，暂时不知道怎么计算的
+    "saved_banzhuan": 0.001105302231900048, 
+    // 意值仓位的初始状态，是所有交易所的总和
+    "saved_chushi": {
+        // 商品币总数
+        "bi": 60.23586859999999, 
+        // 平均价格，使用总共减掉总定价币数再除以商品币总数算出来的
+        "fist_price": 0.0035530069030033054, 
+        // 不明，min(bi, count*stock)
+        "mc": 0.21401845694420002, 
+        // 定价币总数
+        "money": 0.22012836015574, 
+        // 把商品币折算成定价币再加上定价币的总数的总共之和，可用来计算收益
+        "zg": 0.43414681709994
+    }, 
+    "saved_delta": {
+        "Binance": {
+            "Huobi": {
+                "delta_cg_list": {
+                    "differ_leiji": -0.00020000000000000183, 
+                    "times": 10
+                }, 
+                "delta_list": -8.161607920305752e-06, 
+                // 进行套利操作所进行的交易数量
+                "traded_times": 69.8, 
+                "traded_times_dict": 69.8
+            }, 
+            "OKEX": {
+                "delta_cg_list": {
+                    "differ_leiji": -2.000000000000092e-05, 
+                    "times": 16
+                }, 
+                "delta_list": -5.605876522630608e-06, 
+                "traded_times": 0, 
+                "traded_times_dict": 0
+            }
+        }, 
+        "Huobi": {
+            "OKEX": {
+                "delta_cg_list": {
+                    "differ_leiji": 0, 
+                    "times": 0
+                }, 
+                "delta_list": 2.602772381401039e-06, 
+                "traded_times": 57.30000000000001, 
+                "traded_times_dict": 57.30000000000001
+            }
+        }
+    }, 
+    // 启动时，各交易所的初始资产状态
+    "saved_jys_first_state": {
+        "Binance": {
+            // 定价币余额
+            "first_Balance": 0.05710289, 
+            // 商品币数量
+            "first_amount": 25.89005, 
+            // 进行套利操作所进行的交易数量，即状态表格中的"套利数量"
+            "traded_amount": 69.8
+        }, 
+        "Huobi": {
+            "first_Balance": 0.01074481932, 
+            "first_amount": 34.2870886, 
+            "traded_amount": 127.10000000000002
+        }, 
+        "OKEX": {
+            "first_Balance": 0.15228065083574, 
+            "first_amount": 0.05873, 
+            "traded_amount": 0
+        }
+    }
+}
+
+// vi: set ft=javascript:

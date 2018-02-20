@@ -1,0 +1,9 @@
+docker run -it --name botvsrt -h botvsrt -v /root/:/mnt ubuntu:16.04
+apt-get update
+apt-get install tzdata
+dpkg-reconfigure tzdata  # 6, 69
+apt-get install locales
+dpkg-reconfigure locales # 149, 3
+apt-get install python3 python3-pip
+pip3 install ccxt # fixme?
+pip3 install rsa
